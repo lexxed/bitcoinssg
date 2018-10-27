@@ -21,7 +21,7 @@ class AffiliateController extends Controller
 		  //header("HTTP/1.1 301 Moved Permanently");
 		  header('refresh: 2; url='.$link);
 		  //header("Location: " . $link);
-		  return view('pause-screen', ['source' => 'Agoda.com']);
+		  return view('pause-screen', ['affiliate' => $affiliate]);
 		  exit();
 		  //header("Location: ".$link);
 		  //header("Connection: close");}
