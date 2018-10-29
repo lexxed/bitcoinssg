@@ -5,6 +5,8 @@
 
 @section('content')
 
+@php
+/*
   <div class="breadcrumb-header">
     <div class="container">
       <div class="columns">
@@ -16,6 +18,8 @@
       </div>
     </div>
   </div>
+*/  
+@endphp
 
   <div class="container">
     <div class="columns">
@@ -74,7 +78,7 @@
 
             <div class="box"><!-- box 2-->
               <font class="fta">
-                  Top 10 ways to buy Bitcoin in Singapore with SGD
+                  4 Ways to buy Bitcoin in Singapore with SGD
               </font>  
 
                 <table class="table">
@@ -140,8 +144,9 @@
             </div><!-- box 2 end-->    
 
             <div class="box"><!-- box 3-->
-               <p><strong>Top 10 exchanges that accepts USD</strong></p>
-
+              <font class="fta">
+               4 Ways to buy Bitcoin with USD transfers
+              </font>
                 <table class="table">
                   <thead>
                     <tr>
@@ -204,6 +209,73 @@
                 </table>
 
             </div><!-- box 3 end-->    
+
+
+            <div class="box"><!-- box 4-->
+              <font class="fta">
+                Coinhako step by step guide
+              </font>
+
+              <p>
+                <div class="content">
+                  <ol type="I">
+                    <li>
+                      Create an account with coinhako using 
+                          <a class="block-link" href="{{ url('go/coinhako' ) }}" target="_blank">
+                            <u>this link</u>
+                          </a>                      
+                    </li>
+                    <br>
+                    <li>
+                      <p>
+                        Look for BTC/SGS and click on the Buy button. You may need to do ID verification first.
+                      </p>
+                        <div class="card">
+                          <img src="{{ asset('img/coinhako000.png') }}" alt="bitcoin singapore"> 
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                      <p>
+                      Next you will see this screen. You would need to select your xfers.io to buy with SGD. If you do not have an xfers.io account please see step 4.
+                      </p>
+                      <div class="card">
+                          <img src="{{ asset('img/coinhako001.png') }}" alt="bitcoin singapore"> 
+                      </div>
+                    </li>
+                    <br>
+                    <li>
+                      <p>
+                      Go to
+                        <a href="https://www.xfers.io/" target="_blank">
+                              <u>xfers.io</u>
+                        </a> and create an account. Look for menu on the left to top up your digital wallet account.
+                      </p>
+                      <div class="card">
+                          <img src="{{ asset('img/coinhako002.png') }}" alt="bitcoin singapore"> 
+                      </div>
+                    </li>
+                    <br>
+                    <li>
+                      <p>
+                        Here you can select your local bank account to top up. You may need to do ID verification before this.
+                      </p>  
+                      <div class="card">
+                          <img src="{{ asset('img/coinhako003.png') }}" alt="bitcoin singapore"> 
+                      </div>
+                    </li>
+                    <br>
+                    <li>
+                      <p>
+                        Once you have top up your xfers.io account go back to coinhako you should be able to buy your first bitcoin
+                      </p>  
+
+                    </li>                                                               
+                  </ol>
+                </div>              
+              </p>
+
+            </div><!-- box 4 end-->    
 
 
 
