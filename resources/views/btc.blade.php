@@ -231,7 +231,7 @@
                         Look for BTC/SGS and click on the Buy button. You may need to do ID verification first.
                       </p>
                         <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako000.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/coinhako000.PNG') }}" alt="bitcoin singapore"> 
                         </div>
                     </li>
                     <br>
@@ -240,7 +240,7 @@
                       Next you will see this screen. You would need to select your xfers.io to buy with SGD. If you do not have an xfers.io account please see step 4.
                       </p>
                       <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako001.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/coinhako001.PNG') }}" alt="bitcoin singapore"> 
                       </div>
                     </li>
                     <br>
@@ -252,7 +252,7 @@
                         </a> and create an account. Look for menu on the left to top up your digital wallet account.
                       </p>
                       <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako002.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/coinhako002.PNG') }}" alt="bitcoin singapore"> 
                       </div>
                     </li>
                     <br>
@@ -261,7 +261,7 @@
                         Here you can select your local bank account to top up. You may need to do ID verification before this.
                       </p>  
                       <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako003.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/coinhako003.PNG') }}" alt="bitcoin singapore"> 
                       </div>
                     </li>
                     <br>
