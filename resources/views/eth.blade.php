@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('title', 'Buy Bitcoins Singapore')
-@section('description', 'Buy Bitcoins Singapore')
+@section('title', 'Buying Ethereum using SGD in Singapore with Credit Card')
+@section('description', 'Step by Step Guide to Buy Your Own Ethereum in Singapore. See how to Use and Buy Unique Digital products with Ethereum')
 
 @section('content')
 
@@ -31,45 +31,39 @@
 
               
               <font class="fta">  
-                What is Bitcoin ?
+                What is Ethereum ?
               </font>   
 
               <p>  
                     <figure class="image is-16by9 ">
-                      <img src="{{ asset('img/bitcoin01.jpg') }}" alt="bitcoin singapore">
+                      <img src="{{ asset('img/ethlogo01.png') }}" alt="Ethereum singapore">
                     </figure>              
               </p>      
 
 
-              <p>
-                  Bitcoin is a form of currency that is secured by math. Currently when you need to send another person a sum of money you need to go though banks.
-                  Bitcoin removes third party validation(banks) by using mining machines to validate the transactions. Bitcoin was started in 3 Jan 2009 by Satoshi Nakamoto, what is amazing is that something that is worth billions of dollars in transactions that is facing the internet have not been hacked in almost 10 years. 
+              <p class="space2">
+                  Ethereum is a decentralized platform that runs applications using its blockchain. Those using this decentralized applications (Dapps) transact using Ether. It's different from Bitcoin as people can write they own apps and run on the Ethereum blockchain using Smart Contracts.
               </p>
 
 
               <font class="fta">
-                Why Buy Bitcoin ?
+                Why Buy Ethereum ?
               </font>  
 
               <p>  
-                    <figure class="image is-16by9 ">
-                      <img src="{{ asset('img/firstignore.jpg') }}" alt="bitcoin ignore">
-                    </figure>              
+                    
+                      <img src="{{ asset('img/dapp00.png') }}" alt="Ethereum DAPPS">
+                    
               </p>      
-
-
-
-              <p>
-                The value of bitcoin will rise and fall depending on its demand in the market. As long as people use it to transfer value to one another it will never be worth nothing. Currently, cryptocurrency is like the internet in the 1980s, so no one will know which altcoin or cryptocurrency will be mainstream in the future. You cannot predict but you can prepare. That is a very good reason to convert some of your flat money to bitcoins.
+              <p class="space2">
+                Ethereum has the second largest market cap amongst Crypto-Currencies, after Bitcoin. Ethereum promises scalability, reliability and growth potential. It's easy for developers to create Decentralized Apps (Dapps) on the Ethereum blockchain which is not possible using the Bitcoin blockchain.
               </p>
-
-
+              
               <font class="fta">
-                  Buying Bitcoin in Singapore
+                  Buying Ethereum in Singapore
               </font>  
-              <p>
-                  Buying or Converting Singapore Dollars(SGD) to Bitcoin(BTC) or other forms of cryptocurrency(Altcoin) is easier than it seems.<br>
-                  First you need to find a Crypto Exchanges that accepts SGD or if you can open a multicurrency bank account and use Crypto Exchanges that accepts US Dollars.
+              <p class="space2">
+                There are many ways to buy Ethereum in Singapore with SGD or USD. The procedure is same as buying bitcoin as soon as you are verified on the exchanges. Most Crypto Exchanges able to purchase bitcoin is able to buy Ethereum also. Below are a few Crypto Exchanges where you can buy Ethereum.
               </p>
 
             </div><!-- box 1 end-->
@@ -78,7 +72,7 @@
 
             <div class="box"><!-- box 2-->
               <font class="fta">
-                  4 Ways to buy Bitcoin in Singapore with SGD
+                  4 Ways to buy Ethereum in Singapore with SGD
               </font>  
 
                 <table class="table">
@@ -145,7 +139,7 @@
 
             <div class="box"><!-- box 3-->
               <font class="fta">
-               5 Ways to buy Bitcoin with USD transfers
+               4 Ways to buy Ethereum with USD transfers
               </font>
                 <table class="table">
                   <thead>
@@ -213,71 +207,54 @@
 
             <div class="box"><!-- box 4-->
               <font class="fta">
-                Coinhako step by step guide
+                Coinbase step by step guide
               </font>
 
               <p>
                 <div class="content">
                   <ol type="I">
                     <li>
-                      Create an account with coinhako using 
-                          <a class="block-link" href="{{ url('go/coinhako' ) }}" target="_blank">
+                      Create an account with coinbase using 
+                          <a class="block-link" href="{{ url('go/coinbase' ) }}" target="_blank">
                             <u>this link</u>
                           </a>                      
                     </li>
                     <br>
                     <li>
                       <p>
-                        Look for BTC/SGS and click on the Buy button. You may need to do ID verification first.
+                        Select Ethereum and click the buy on the right side. If you have already linked your xfers.io account you can use that to buy.
+                        If not you can click add account and link your credit/debit card to your account to buy up to SGD100 per week at first. Your buying limit will increase after your first purchase of SGD100.
                       </p>
                         <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako000.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/buyeth001.PNG') }}" alt="Ethereum singapore"> 
                         </div>
                     </li>
                     <br>
                     <li>
                       <p>
-                      Next you will see this screen. You would need to select your xfers.io to buy with SGD. If you do not have an xfers.io account please see step 4.
+                      You can also click add account to add your Singapore Bank Credit/Debit Card to your coinbase account.
                       </p>
                       <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako001.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/buyeth002.PNG') }}" alt="Ethereum singapore"> 
                       </div>
                     </li>
                     <br>
                     <li>
                       <p>
-                      Go to
-                        <a href="https://www.xfers.io/" target="_blank">
-                              <u>xfers.io</u>
-                        </a> and create an account. Look for menu on the left to top up your digital wallet account.
+                        Once you add your card. You will need to look for 2 transactions made by coinbase and use the amount to verify your card.
+                        If its in the hold amount you can call your bank for the 2 amounts charged by coinbase. Or you can check with your online banking after a few days.
                       </p>
                       <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako002.png') }}" alt="bitcoin singapore"> 
+                          <img src="{{ asset('img/buyeth003.PNG') }}" alt="Ethereum singapore"> 
                       </div>
                     </li>
                     <br>
                     <li>
                       <p>
-                        Here you can select your local bank account to top up. You may need to do ID verification before this.
+                        Once you have verified your card you can now buy your first Ethereum and spend it on Dapps. Or use it to trade for other Altcoins like Monero or Ravencoins.
                       </p>  
-                      <div class="card is-flex is-horizontal-center">
-                          <img src="{{ asset('img/coinhako003.png') }}" alt="bitcoin singapore"> 
-                      </div>
                     </li>
                     <br>
-                    <li>
-                      <p>
-                        Once you have top up your xfers.io account go back to coinhako and buy your first bitcoin and join in the greatest evolution of banking since 1913.
-                      </p>  
-                      <p>
-                          
-                      <a class="button is-success" href="{{ url('go/coinhako' ) }}" target="_blank">
-                        Buy Bitcoin with Coinhako
-                      </a>                           
-
-                      </p>
-
-                    </li>                                                               
                   </ol>
                 </div>              
               </p>
@@ -298,8 +275,6 @@
           </p>
               <img src="{{ asset('img/Ravencoin02.png') }}" alt="ravencoin singapore"> 
               In the fictional world of Westeros, ravens are used as the messengers who carry statements of truth. Ravencoin is a use case specific blockchain designed to carry statements of truth about who owns what asset.              
-              
-
         </div>
       </div> 
 

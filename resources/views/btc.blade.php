@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('title', 'Buy Bitcoins Singapore')
-@section('description', 'Buy Bitcoins Singapore')
+@section('title', 'Buying Bitcoin using SGD with Cryptocurrency Exchanges')
+@section('description', 'How to use Cryptocurrency Exchanges to own you first Bitcoin in Singapore using SGD. Buy with Credit/Debit Card and Fund Transfer.')
 
 @section('content')
 

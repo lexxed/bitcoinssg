@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('title', 'Buy Bitcoins Singapore')
-@section('description', 'Buy Bitcoins Singapore')
+@section('title', 'Buy Bitcoin Singapore Cryptocurrency Exchanges Guide')
+@section('description', 'Step by Step Guide to using Cryptocurrency Exchanges to own your first Bitcoin. See how to use and pay with Bitcoin in Singapore to buy and sell things.')
 
 @section('content')
 
@@ -9,18 +9,18 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-2">
-          Bitcoin Singapore: Best Crypto Exchange to buy crypto
+          Bitcoin Singapore
         </h1>
         <h2 class="subtitle is-5">
-          Crypto Exchange Reviews
+          Best Cryptocurrency Exchanges for Singapore
         </h2>
         <p>
             <span>
-              <a href="{{ url('Bitcoin') }}" class="button is-outlined" >Buy Bitcoin</a>
+              <a href="{{ url('buy-bitcoin-singapore') }}" class="button is-outlined" >Buy Bitcoin</a>
               &nbsp;
-              <a href="{{ url('Eth') }}" class="button is-outlined" >Buy Ethereum</a>
+              <a href="{{ url('buy-ethereum-singapore') }}" class="button is-outlined" >Buy Ethereum</a>
               &nbsp;
-              <a href="{{ url('singapore/travel-packages/Bali') }}" class="button is-outlined" >Altcoin</a>
+              <a href="{{ url('buy-monero-singapore') }}" class="button is-outlined" >Buy Monero</a>
               @php
               /*
               &nbsp;
@@ -30,8 +30,8 @@
             </span>
         </p>
         <p><br>
-          <a href="{{ url('/singapore/popular-travel-destinations') }}">
-          See all Crypto Exchanges
+          <a href="{{ url('singapore-cryptocurrency-exchanges') }}">
+          See all Cryptocurrency Exchanges
           </a>
         </p>
       </div>
@@ -40,9 +40,9 @@
   <div class="hero-cta">
     <nav class="level">
       <div class="level-item has-text-centered">
-        <form class="nav-item control has-addons searchbox" id="searchhome" method="POST" action="/search/">
+        <form class="nav-item control has-addons searchbox" id="searchhome" method="POST" action="/searchxe/">
           {{ csrf_field() }}
-          <input name="q" class="input" type="text" placeholder="Search travel deals">
+          <input name="q" class="input" type="text" placeholder="Search Exchanges">
           <a class="button is-primary" onclick="document.getElementById('searchhome').submit();">
           &nbsp; <i class="fa fa-search"></i> 
           </a>

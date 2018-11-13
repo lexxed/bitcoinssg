@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" id="bulma" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
     <!-- Favicon and Apple Icons -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
 </head>
@@ -37,16 +36,19 @@
       <a class="nav-item is-tab" href="{{ url('/') }}">
         Home
       </a>
-      <a href="{{ url('/popular-travel-packages') }}" class="nav-item is-tab" >
-        Buy Bitcoins
-      </a>
-      <a href="{{ url('/singapore/travel-agencies') }}" class="nav-item is-tab">
+      <a href="{{ url('buy-bitcoin-singapore') }}" class="nav-item is-tab" >
+        Buy Bitcoin
+      </a>      
+      <a href="{{ url('/buy-ethereum-singapore') }}" class="nav-item is-tab">
         Buy Ethereum
       </a>    
+      <a href="{{ url('buy-monero-singapore') }}" class="nav-item is-tab" >
+        Buy Monero
+      </a>
 
-      <form class="nav-item control has-addons searchbox" id="search" method="POST" action="/search/">
+      <form class="nav-item control has-addons searchbox" id="search" method="POST" action="/searchcoin/">
         {{ csrf_field() }}
-        <input name="q" class="input" type="text" placeholder="Search travel deals">
+        <input name="q" class="input" type="text" placeholder="Search coins">
         <a class="button is-dark" onclick="document.getElementById('search').submit();">
         &nbsp; <i class="fa fa-search"></i> &nbsp; 
         </a>
@@ -67,8 +69,15 @@
         <a href="{{ url('/') }}">Bitcoins.com.sg&nbsp;</a>© Copyright {{ date("Y")}}
       </p>
       <p class="text-muted">
+          @php
+
+/*
           <a href="{{ url('singapore/aboutus.html') }}">about</a>&nbsp;
           <a href="{{ url('singapore/contactus.html') }}">contact</a>
+*/          
+
+          @endphp
+
       </p>
     </div>
   </div>
