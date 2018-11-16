@@ -1,7 +1,8 @@
 @extends('master')
 
-@section('title', 'Buy Ethereum in Singapore')
-@section('description', 'How to buy Ethereum in Singapore')
+@section('title', 'Best Cryptocurrency Exchanges for Singapore')
+@section('description', 'List of Best Cryptocurrency Exchanges to use in Singapore to buy Bitcoins, Ethereum, Monero and other altcoins. Compares fees and method of payment')
+
 
 @section('content')
 
